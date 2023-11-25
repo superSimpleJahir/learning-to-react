@@ -1,0 +1,26 @@
+.container{
+  width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.d_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: bisque;
+  background-color: #2d2d2d;
+  padding: 20px 30px;
+  border: none;
+  font-size: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
