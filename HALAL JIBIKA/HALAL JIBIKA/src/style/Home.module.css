@@ -1,0 +1,130 @@
+.bg {
+  /* background: linear-gradient(111deg, rgba(254, 254, 255, 0.94) 0%, rgba(166, 177, 214, 0.94) 97.81%); */
+}
+
+.heroText {
+  width: 48%;
+}
+
+.heroText h1 {
+  font-size: 40px;
+}
+
+.heroText h1 span {
+  color: #5c66d9;
+  text-decoration: underline;
+}
+
+.heroText p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.heroText .heroBtn {
+  background-color: #5c66d9;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.herologo {
+  width: 600px;
+}
+
+.innercategory {
+  margin: 30px 0;
+}
+
+.innercategory h1 {
+  font-size: 35px;
+  margin: 0 0 20px 0;
+}
+
+.innercategory h1 span {
+  color: #5c66d9;
+  text-decoration: underline;
+}
+
+.categorySection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all ease .5s;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card img {
+  width: 40px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.jobsBtn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.jobsBtn a {
+  display: inline-block;
+  background-color: #919AF7;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all ease .5s;
+}
+
+.jobsBtn a:hover {
+  background-color: #4954c7;
+
+}
+
+/* Add this CSS code to make your header responsive */
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroText {
+    width: 100%;
+  }
+
+  .heroText h1 {
+    font-size: 30px;
+  }
+
+  .herologo {
+    order: 1;
+    width: 100%;
+  }
+
+  .categorySection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Rest of your existing CSS */

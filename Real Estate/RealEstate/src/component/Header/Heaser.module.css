@@ -1,0 +1,13 @@
+.h_wrapper {
+  background: var(--black);
+  color: #fff;
+}
+
+.h_container {
+  justify-content: space-between;
+  color: var(--secondary);
+}
+
+.h_menu {
+  gap: 15px;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+footer {
+  background: #505152;
+  margin: 0px auto 0 auto;
+  padding: 48px 0;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 50px;
+}
+
+footer .row .coll .line {
+  width: 296px;
+  height: 1px;
+  background: #D4D7E5;
+  margin: 48px 0;
+}
+
+footer .row .coll .dowenlod {
+  display: flex;
+  gap: 10px;
+}
+
+footer .row .coll .dowenlod img {
+  cursor: pointer;
+}
+.coll h1{
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+.coll p{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+.coll button{
+  
+}
+footer .row .coll1 {
+  display: flex;
+  gap: 83px;
+}
+
+footer .row .subColl h4 {
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer .row .subColl li {
+  margin-bottom: 16px;
+}
+
+footer .row .subColl li a {
+  color: #D4D7E5;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.dowenFooter {
+  padding: 52px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dowenFooter .coll1 {
+  display: flex;
+  gap: 24px;
+}
+
+.dowenFooter .coll {
+  display: flex;
+  gap: 60px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dowenFooter .coll a {
+  color: #FFF;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .footer .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .coll1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .subColl {
+    margin-bottom: 20px;
+  }
+
+  .footer .dowenFooter {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .coll {
+    gap: 20px;
+  }
+  
+  .coll .subColl h4{
+    text-align: center;
+  }
+  .dowenFooter .coll1{
+    display: flex;
+    flex-direction: row;
+
+  }
+}

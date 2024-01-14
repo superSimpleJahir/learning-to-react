@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600;1,700&display=swap');
+
+.innerNavSection {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #FFF;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo a {
+  font-family: 'Source Code Pro', monospace;
+  color: #5c66d9;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.flex {
+  gap: 15px;
+}
+
+ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all ease 0.4s;
+}
+
+ul li a:hover {
+  color: #5c66d9;
+}
+
+ul .btn {
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.active {
+  color: #5c66d9;
+}
+
+.nonactive {
+  color: #000;
+}
+
+ul .login,
+ul .signup {
+  background-color: #5c66d9;
+  color: #fff;
+  transition: all ease 0.4s;
+}
+
+ul .login:hover,
+ul .signup:hover {
+  background-color: #414cc4;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+}
